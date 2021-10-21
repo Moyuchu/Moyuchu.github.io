@@ -4,11 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Python爬虫学习, Hexo">
-    <meta name="description" content="Python爬虫Cookie:服务器为了能够标识客户端，保存在本地的内容。（加密）
-如果没有Cookie，网站就会认为没有登陆。（不会接收到登陆才能获取的信息）
-User-Agent: 表明客户端的浏览器版本以及能够接收到的浏览器版本。
-R">
+    <meta name="keywords" content="Python爬虫学习, Curtis">
+    <meta name="description" content="Python爬虫基础">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -20,7 +17,7 @@ R">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Python爬虫学习 | Hexo</title>
+    <title>Python爬虫学习 | Curtis</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -35,7 +32,7 @@ R">
 
 <meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+<link rel="alternate" href="/atom.xml" title="Curtis" type="application/atom+xml">
 </head>
 
 
@@ -50,7 +47,7 @@ R">
                     
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
-                    <span class="logo-span">Hexo</span>
+                    <span class="logo-span">Curtis</span>
                 </a>
             </div>
             
@@ -149,7 +146,7 @@ R">
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">Hexo</div>
+        <div class="logo-name">Curtis</div>
         <div class="logo-desc">
             
             Never really desperate, only the lost of the soul.
@@ -436,14 +433,27 @@ R">
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Python-%E7%88%AC%E8%99%AB/">
-                                <span class="chip bg-color">Python; 爬虫</span>
+                            <a href="/tags/Python/">
+                                <span class="chip bg-color">Python</span>
+                            </a>
+                        
+                            <a href="/tags/%E7%88%AC%E8%99%AB/">
+                                <span class="chip bg-color">爬虫</span>
                             </a>
                         
                     </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Markdown/" class="post-category">
+                                Markdown
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -466,14 +476,14 @@ R">
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    127
+                    2.5k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    10 分
                 </div>
                 
 
@@ -496,11 +506,193 @@ R">
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Python爬虫"><a href="#Python爬虫" class="headerlink" title="Python爬虫"></a>Python爬虫</h1><p><strong>Cookie</strong>:服务器为了能够<strong>标识客户端</strong>，保存在本地的内容。（加密）</p>
+                <h1 id="Python爬虫"><a href="#Python爬虫" class="headerlink" title="Python爬虫"></a>Python爬虫</h1><p><img src="./Python%E7%88%AC%E8%99%AB%E5%AD%A6%E4%B9%A0/img1.jpg" alt=" "></p>
+<p><strong>Cookie</strong>:服务器为了能够<strong>标识客户端</strong>，保存在本地的内容。（加密）</p>
 <p>如果没有Cookie，网站就会认为没有登陆。（不会接收到登陆才能获取的信息）</p>
 <p><strong>User-Agent</strong>: 表明客户端的浏览器版本以及能够接收到的浏览器版本。</p>
 <p>Response <strong>Headers</strong>（接收服务器返回的内容样式） &amp; Request <strong>Headers</strong>（内含Cookie、User-Agent) : 头部（发给服务器的）</p>
 <p>目的是：知道信息所在的位置，能找到信息。</p>
+<p><img src="./Python%E7%88%AC%E8%99%AB%E5%AD%A6%E4%B9%A0/image-20211014184138219.png" alt=" "></p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">if</span> _name_<span class="token operator">==</span><span class="token string">"_main_"</span> <span class="token punctuation">:</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>定义程序入口。写了这行就不会再在程序其他地方写调用了。（Python是解释执行的过程 从上到下）<img src="./Python%E7%88%AC%E8%99%AB%E5%AD%A6%E4%B9%A0/image-20211014185851836.png" alt=" "></p>
+<p>import urllib. request,urllib.error : 指定网页，获取网页数据（给网页就能爬</p>
+<p>import re : 正则表达式，进行文字匹配（爬完网页进行数据拆分</p>
+<p>import bs4 : 网页解析，获取数据（进行数据提炼</p>
+<p>import xlwt : 进行excel操作（存到excel</p>
+<p>import sqlite3 : 进行SQLite数据库操作（存到数据库</p>
+<p><img src="./Python%E7%88%AC%E8%99%AB%E5%AD%A6%E4%B9%A0/image-20211014204108230.png" alt=" "></p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    baseurl <span class="token operator">=</span> <span class="token string">"https://movie.douban.com/top250?start="</span>
+    <span class="token comment"># print("浪漫至死不渝")</span>
+    <span class="token comment">#1.爬取网页</span>
+    datalist <span class="token operator">=</span> getData<span class="token punctuation">(</span>baseurl<span class="token punctuation">)</span>
+    savepath <span class="token operator">=</span> <span class="token string">".\\豆瓣电影Top250.xls"</span><span class="token comment">#建立一个xls文件，将数据保存进去</span>
+    <span class="token comment"># "."表示保存在当前文件夹 ".\\"或r".\"</span>
+    <span class="token comment"># 3.保存数据</span>
+    saveData<span class="token punctuation">(</span>savepath<span class="token punctuation">)</span>
+
+
+<span class="token comment">#爬取网页（边爬取边解析）</span>
+<span class="token keyword">def</span> <span class="token function">getData</span><span class="token punctuation">(</span>baseurl<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    datalist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token comment"># 2.逐一解析数据(提取成函数)</span>
+    <span class="token keyword">return</span> datalist
+
+<span class="token comment">#3.保存数据（由主要流程控制，所以不放在getData</span>
+<span class="token keyword">def</span> <span class="token function">saveData</span><span class="token punctuation">(</span>savapath<span class="token punctuation">)</span><span class="token punctuation">:</span>
+		<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"save..."</span><span class="token punctuation">)</span>
+    
+<span class="token keyword">if</span> __name__ <span class="token operator">==</span> <span class="token string">'__main__'</span><span class="token punctuation">:</span>
+    main<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> urllib<span class="token punctuation">.</span>request
+<span class="token comment">#获取一个get请求</span>
+<span class="token keyword">try</span><span class="token punctuation">:</span>
+    response <span class="token operator">=</span> urllib<span class="token punctuation">.</span>request<span class="token punctuation">.</span>urlopen<span class="token punctuation">(</span><span class="token string">"http://httpbin.org/get"</span><span class="token punctuation">,</span>timeout<span class="token operator">=</span><span class="token number">0.01</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>decode<span class="token punctuation">(</span><span class="token string">'utf-8'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">except</span> urllib<span class="token punctuation">.</span>error<span class="token punctuation">.</span>URLError <span class="token keyword">as</span> e<span class="token punctuation">:</span> <span class="token comment">#异常统一处理即可，有超时越过它继续爬取，之后再来看</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"time out!"</span><span class="token punctuation">)</span>
+
+<span class="token comment">#需要超时处理</span>
+
+<span class="token comment"># response = urllib.request.urlopen("http://www.baidu.com")</span>
+<span class="token comment"># print(response.read().decode('utf-8'))</span>
+
+
+<span class="token comment">#对获取到的网页源码进行utf-8的解析</span>
+
+<span class="token comment">#获取一个post请求（发送一个表单 将用户、密码加密</span>
+<span class="token comment">#用post就必须要有获取请求后服务器端的响应</span>
+<span class="token comment">#故要想测试post请求，可以用一个网址进行测试 httpbin.org（专门用来测试请求和响应的网站</span>
+
+<span class="token comment">#模拟浏览器发出请求</span>
+<span class="token comment">#post 一般用来模拟用户真实登陆（也很常用）</span>
+<span class="token comment"># import urllib.parse #解析器</span>
+<span class="token comment"># data = bytes(urllib.parse.urlencode({"hello":"world"}),encoding="utf-8") #转化为二进制 封装(字典) 还要说明二进制数组是按什么封装的</span>
+<span class="token comment"># response = urllib.request.urlopen("http://httpbin.org/post",data=data)#data是传递的内容</span>
+<span class="token comment"># #用post方式访问，就必须用post来封装数据（用data来传递一个参数），而这个参数需要用bytes将其变成字节文件</span>
+<span class="token comment">#</span>
+<span class="token comment"># #不能直接用post来访问，必须要传递一些post的表单信息</span>
+<span class="token comment"># print(response.read().decode("utf-8"))</span>
+<span class="token comment">#将网页内容做解析</span>
+
+response <span class="token operator">=</span> urllib<span class="token punctuation">.</span>request<span class="token punctuation">.</span>urlopen<span class="token punctuation">(</span><span class="token string">"http://httpbin.org/get"</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>status<span class="token punctuation">)</span>
+<span class="token comment">#200 (状态码）正常响应并返回</span>
+
+<span class="token comment">#如果网页是http://douban.com 就会返回418状态码，意思是对方已经发现你是一个爬虫了</span>
+response <span class="token operator">=</span> urllib<span class="token punctuation">.</span>request<span class="token punctuation">.</span>urlopen<span class="token punctuation">(</span><span class="token string">"http://www.baidu/get"</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>getheaders<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token comment">#response不仅能获取网页信息，也可以获取响应过程中的信息</span>
+<span class="token comment">#单独一个属性</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>getheader<span class="token punctuation">(</span><span class="token string">"Server"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token comment">#如果获取的不是中文，可以用deocde重新解码</span>
+<span class="token comment">#返回的就是 百度页面Network中Response Headers的内容 （响应头）</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>headers的意义就是告诉别人你想获取的信息有哪些。</p>
+<p>这样发出的话，user-Agent直接是python，不伪装</p>
+<p>超时：若网页超过timeout没有响应则停止访问（报错）-&gt;异常处理</p>
+<p>如果想让对方不发现你是一个爬虫，要伪装成浏览器，不能直接访问，要把请求对象封装一下</p>
+<p>并且要把浏览器会发的请求都发了![ ](/Users/wangzimo/Library/Application Support/typora-user-images/截屏2021-10-16 下午4.01.02.png)</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">headers <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">"User-Agent"</span><span class="token punctuation">:</span><span class="token string">"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36"</span><span class="token punctuation">}</span>
+<span class="token comment">#network里要点任意文件看Headers</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>封装。模拟浏览器。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">url <span class="token operator">=</span> <span class="token string">"http://httpbin.org/get"</span>
+data <span class="token operator">=</span> <span class="token builtin">bytes</span><span class="token punctuation">(</span>urllib<span class="token punctuation">.</span>parse<span class="token punctuation">.</span>urlencode<span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">'name'</span><span class="token punctuation">:</span><span class="token string">'eric'</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>encoding<span class="token operator">=</span><span class="token string">"utf-8"</span><span class="token punctuation">)</span>
+headers <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">"User-Agent"</span><span class="token punctuation">:</span><span class="token string">"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36"</span><span class="token punctuation">}</span>
+<span class="token comment">#network里要点任意文件看Headers</span>
+req <span class="token operator">=</span> urllib<span class="token punctuation">.</span>request<span class="token punctuation">.</span>Request<span class="token punctuation">(</span>url<span class="token operator">=</span>url<span class="token punctuation">,</span>data<span class="token operator">=</span>data<span class="token punctuation">,</span>headers<span class="token operator">=</span>headers<span class="token punctuation">,</span>method<span class="token operator">=</span><span class="token string">"POST"</span><span class="token punctuation">)</span>
+response <span class="token operator">=</span> urllib<span class="token punctuation">.</span>request<span class="token punctuation">.</span>urlopen<span class="token punctuation">(</span>req<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>decode<span class="token punctuation">(</span><span class="token string">"utf-8"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> urllib<span class="token punctuation">.</span>request
+<span class="token keyword">import</span> ssl
+ssl<span class="token punctuation">.</span>_create_default_https_context <span class="token operator">=</span> ssl<span class="token punctuation">.</span>_create_unverified_context
+<span class="token comment">#SSL证书的问题</span>
+url <span class="token operator">=</span> <span class="token string">"http://www.douban.com"</span>
+headers <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">"User-Agent"</span><span class="token punctuation">:</span><span class="token string">"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36"</span><span class="token punctuation">}</span>
+req <span class="token operator">=</span> urllib<span class="token punctuation">.</span>request<span class="token punctuation">.</span>Request<span class="token punctuation">(</span>url<span class="token operator">=</span>url<span class="token punctuation">,</span>headers<span class="token operator">=</span>headers<span class="token punctuation">)</span><span class="token comment">#方法就是get</span>
+response <span class="token operator">=</span> urllib<span class="token punctuation">.</span>request<span class="token punctuation">.</span>urlopen<span class="token punctuation">(</span>req<span class="token punctuation">)</span><span class="token comment">#用对象传递消息</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token triple-quoted-string string">'''
+BeautifulSoup4将复杂的HTML文档转换成一个复杂的树形结构，每个节点都是Python对象，所有对象可以归纳为4种
+
+- Tag
+- NavigableString
+- BeautifulSoup
+- Comment
+
+'''</span>
+
+<span class="token comment">#引进来</span>
+
+<span class="token keyword">from</span> bs4 <span class="token keyword">import</span> BeautifulSoup
+
+<span class="token builtin">file</span> <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"./baidu.html"</span><span class="token punctuation">,</span><span class="token string">"rb"</span><span class="token punctuation">)</span><span class="token comment">#read bytes</span>
+html <span class="token operator">=</span> <span class="token builtin">file</span><span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span>
+bs <span class="token operator">=</span> BeautifulSoup<span class="token punctuation">(</span>html<span class="token punctuation">,</span><span class="token string">"html.parser"</span><span class="token punctuation">)</span><span class="token comment">#解析器 已形成了一个文件树</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span>bs<span class="token punctuation">.</span>title<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>bs<span class="token punctuation">.</span>a<span class="token punctuation">)</span>  <span class="token comment">#第一个出现的标签及其内容</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>bs<span class="token punctuation">.</span>head<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token builtin">type</span><span class="token punctuation">(</span>bs<span class="token punctuation">.</span>head<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token comment">#标签类型</span>
+
+<span class="token comment">#Tag</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span>bs<span class="token punctuation">.</span>title<span class="token punctuation">.</span>string<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token builtin">type</span><span class="token punctuation">(</span>bs<span class="token punctuation">.</span>title<span class="token punctuation">.</span>string<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token comment">#标签里的内容 即字符串</span>
+
+<span class="token comment">#NavigableString 标签里的内容</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>bs<span class="token punctuation">.</span>a<span class="token punctuation">.</span>attrs<span class="token punctuation">)</span> <span class="token comment">#可以快速拿到一个标签里所有的属性</span>
+
+
+<span class="token comment">#BeautifulSoup 表示整个文档</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token builtin">type</span><span class="token punctuation">(</span>bs<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token comment"># print(bs)</span>
+
+<span class="token comment">#Comment 是一个特殊的NavigableString</span>
+<span class="token comment">#注释</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>bs<span class="token punctuation">.</span>a<span class="token punctuation">.</span>string<span class="token punctuation">)</span> <span class="token comment">#不会拿到注释</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token builtin">type</span><span class="token punctuation">(</span>bs<span class="token punctuation">.</span>a<span class="token punctuation">.</span>string<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>如何应用：</p>
+<h3 id="遍历文档树"><a href="#遍历文档树" class="headerlink" title="遍历文档树"></a><strong>遍历文档树</strong></h3><p>5.1 .contents：获取Tag的所有子节点，返回一个list</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># tag的.content 属性可以将tag的子节点以列表的方式输出</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>bs<span class="token punctuation">.</span>head<span class="token punctuation">.</span>contents<span class="token punctuation">)</span>
+<span class="token comment"># 用列表索引来获取它的某一个元素</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>5.2  .children：获取Tag的所有子节点，返回一个生成器</p>
+<p>5.3  .descendants：获取Tag的所有子孙节点</p>
+<p>5.4  .strings：如果Tag包含多个字符串，即在子孙节点中有内容，可以用此获取，而后进行遍历5.5、.stripped_strings：与strings用法一致，只不过可以去除掉那些多余的空白内容</p>
+<p>5.6 、.parent：获取Tag的父节点</p>
+<p>5.7 、.parents：递归得到父辈元素的所有节点，返回一个生成器</p>
+<p>5.8 、.previous_sibling：获取当前Tag的上一个节点，属性通常是字符串或空白，真实结果是当前标签   与上一个标签之间的顿号和换行符</p>
+<p>5.9 、.next_sibling：获取当前Tag的下一个节点，属性通常是字符串或空白，真是结果是当前标签与下    一个标签之间的顿号与换行符</p>
+<p>5.10 、.previous_siblings：获取当前Tag的上面所有的兄弟节点，返回一个生成器5.11、.next_siblings：获取当前Tag的下面所有的兄弟节点，返回一个生成器</p>
+<p>5.12 、.previous_element：获取解析过程中上一个被解析的对象(字符串或tag)，可能与previous_sibling相同，但通常是不一样的</p>
+<p>5.13 、.next_element：获取解析过程中下一个被解析的对象(字符串或tag)，可能与next_sibling相同， 但通常是不一样的</p>
+<p>5.14 、.previous_elements：返回一个生成器，可以向前访问文档的解析内容5.15、.next_elements：返回一个生成器，可以向后访问文档的解析内容5.16、.has_attr：判断Tag是否包含属性</p>
+<h2 id="BeautifulSoup"><a href="#BeautifulSoup" class="headerlink" title="BeautifulSoup"></a><strong>BeautifulSoup</strong></h2><p>#标签解析</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token triple-quoted-string string">'''BeautifulSoup4将复杂的HTML文档转换成一个复杂的树形结构，每个节点都是Python对象，所有对象可以归纳为4种- Tag- NavigableString- BeautifulSoup- Comment'''</span><span class="token comment">#引进来import refrom bs4 import BeautifulSoupfile = open("./baidu.html","rb")#read byteshtml = file.read().decode("utf-8")bs = BeautifulSoup(html,"html.parser")#解析器 已形成了一个文件树## print(bs.title)# print(bs.a)  #第一个出现的标签及其内容# print(bs.head)# print(type(bs.head))#标签类型## #Tag## print(bs.title.string)# print(type(bs.title.string))#标签里的内容 即字符串## #NavigableString 标签里的内容# print(bs.a.attrs) #可以快速拿到一个标签里所有的属性### #BeautifulSoup 表示整个文档# print(type(bs))# # print(bs)## #Comment 是一个特殊的NavigableString# #注释# print(bs.a.string) #不会拿到注释# print(type(bs.a.string))#---------------------------#如何应用#文档的遍历print(bs.head.contents)print(bs.head.contents[1])#更多内容是去搜索文档#文档的搜索#(1)find_all#字符串过滤：会查找完全和字符串匹配的内容#t_list = bs.find_all("a")#正则表达式搜索：使用search()方法来匹配内容#t_list=bs.find_all(re.compile("a"))#方法 ：传入一个函数（方法），根据函数的要求来搜索（了解）def name_is_exist(tag):    return tag.has_attr("name")t_list = bs.find_all(name_is_exist)#自定义for item in t_list:    print(item)    #打印列表print(t_list)#2.kwargs  参数t_list = bs.find_all(id="head")t_list = bs.find_all(class_=True)t_list = bs.find_all(href="hrrp://news.baidu.com")for item in t_list:    print(item)#3.text参数t_list = bs.find_all(text="hao123")#正则表达式t_list = bs.find_all(text = re.compile("\d")) #所有带数字的（包含特定文本的内容）for item in t_list:    print(item)#4.limit 参数t_list = bs.find_all("a", limit=3) #限定能获取多少个#5.css选择器t_list = bs.select('title') #通过标签来查找t_list = bs.select(".mnav") #通过类名来查找t_list = bs.select("#u1") #通过id来查找t_list = bs.select("a[class='bri]") #通过属性来查找t_list = bs.select("head &gt; title") #子标签t_list = bs.select(".mnav ~ .bri") #兄弟标签print(t_list[0].get_text())for item in t_list:    print(item)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><strong>如何去定位想要的标签是一个获取信息很重要的能力。</strong></p>
+<h2 id="re库"><a href="#re库" class="headerlink" title="re库"></a>re库</h2><h3 id="正则表达式"><a href="#正则表达式" class="headerlink" title="正则表达式"></a><strong>正则表达式</strong></h3><p>![截屏2021-10-17 下午5.49.54](./Python爬虫学习/截屏2021-10-17 下午5.49.54.jpg)</p>
+<p>如：.*126.com</p>
+<p>(比如很多时候还没写完邮箱，浏览器就知道你写的格式不对)</p>
+<p>![ ](./Python爬虫学习/截屏2021-10-17 下午8.39.12.jpg)</p>
+<p>![ ](./Python爬虫学习/截屏2021-10-17 下午7.14.47.jpg)</p>
+<p>配置（模式限定）</p>
+<p>![ ](./Python爬虫学习/截屏2021-10-17 下午7.15.53.jpg)</p>
+<p>![ ](./Python爬虫学习/截屏2021-10-17 下午7.46.42.jpg)</p>
+<p>![ ](./Python爬虫学习/截屏2021-10-18 下午9.24.13.jpg)</p>
+<p>findall:列表形式返回匹配项</p>
+<p>![ ](./Python爬虫学习/截屏2021-10-18 下午9.26.02.jpg)</p>
+<p>![ ](./Python爬虫学习/截屏2021-10-18 下午9.26.34.jpg)</p>
 
                 
             </div>
@@ -565,8 +757,12 @@ R">
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Python-%E7%88%AC%E8%99%AB/">
-                                    <span class="chip bg-color">Python; 爬虫</span>
+                                <a href="/tags/Python/">
+                                    <span class="chip bg-color">Python</span>
+                                </a>
+                            
+                                <a href="/tags/%E7%88%AC%E8%99%AB/">
+                                    <span class="chip bg-color">爬虫</span>
                                 </a>
                             
                         </div>
@@ -738,18 +934,17 @@ R">
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/22/python-pa-chong-xue-xi/">
+                <a href="/2021/10/22/wu-en-da-ji-qi-xue-xi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Python爬虫学习">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="吴恩达机器学习">
                         
-                        <span class="card-title">Python爬虫学习</span>
+                        <span class="card-title">吴恩达机器学习</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -759,9 +954,9 @@ R">
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-22
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-10-22
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -769,15 +964,6 @@ R">
                             
                         </span>
                     </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Python-%E7%88%AC%E8%99%AB/">
-                        <span class="chip bg-color">Python; 爬虫</span>
-                    </a>
-                    
                 </div>
                 
             </div>

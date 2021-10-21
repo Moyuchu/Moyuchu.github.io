@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Curtis</title>
   
-  
+  <subtitle>OopsCurtis</subtitle>
   <link href="http://moyuchu.github.io/atom.xml" rel="self"/>
   
   <link href="http://moyuchu.github.io/"/>
-  <updated>2021-10-21T19:34:13.890Z</updated>
+  <updated>2021-10-21T20:44:51.271Z</updated>
   <id>http://moyuchu.github.io/</id>
   
   <author>
@@ -17,25 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>吴恩达机器学习</title>
+    <link href="http://moyuchu.github.io/2021/10/22/wu-en-da-ji-qi-xue-xi/"/>
+    <id>http://moyuchu.github.io/2021/10/22/wu-en-da-ji-qi-xue-xi/</id>
+    <published>2021-10-21T20:44:51.000Z</published>
+    <updated>2021-10-21T20:44:51.271Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Python爬虫学习</title>
     <link href="http://moyuchu.github.io/2021/10/22/python-pa-chong-xue-xi/"/>
     <id>http://moyuchu.github.io/2021/10/22/python-pa-chong-xue-xi/</id>
     <published>2021-10-21T19:32:44.000Z</published>
-    <updated>2021-10-21T19:34:13.890Z</updated>
+    <updated>2021-10-21T21:03:28.021Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Python爬虫&quot;&gt;&lt;a href=&quot;#Python爬虫&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;Python爬虫&quot;&gt;&lt;a href=&quot;#Python爬虫&quot; class=&quot;headerlink&quot; title=&quot;Python爬虫&quot;&gt;&lt;/a&gt;Python爬虫&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
         
       
     
     
     
+    <category term="Markdown" scheme="http://moyuchu.github.io/categories/Markdown/"/>
     
-    <category term="Python; 爬虫" scheme="http://moyuchu.github.io/tags/Python-%E7%88%AC%E8%99%AB/"/>
+    
+    <category term="Python" scheme="http://moyuchu.github.io/tags/Python/"/>
+    
+    <category term="爬虫" scheme="http://moyuchu.github.io/tags/%E7%88%AC%E8%99%AB/"/>
     
   </entry>
   
