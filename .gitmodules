@@ -1,0 +1,3 @@
+[submodule "themes/hexo-theme-minimalism"]
+    path = themes/hexo-theme-minimalism
+    url = https://github.com/Moyuchu/Moyuchu.github.io
